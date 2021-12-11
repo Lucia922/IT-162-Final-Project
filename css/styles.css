@@ -1,0 +1,124 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;;
+
+}
+
+body {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;; 
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.5em;
+    line-height: 1.4;
+    color:#11004c;
+    background-color: #f8f8f7;
+    text-align: center;
+    width: 100%;
+
+}
+
+h1 {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -8%;
+   
+}
+
+
+.topnav {
+    position: fixed;
+    font-size: 20px;
+    top: 10%;
+    left :1%;
+}
+
+a {
+    color:#1a0077;
+}
+
+a:hover {
+    border-bottom: 3px solid red;
+  }
+
+.topnav ul{
+    list-style: none; /* Remove list bullets */
+    
+}
+
+.topnav li {
+    display: inline;
+}
+
+section {
+    margin-top: 13%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.topnav li a.shop {
+    float: right;
+    margin-right: 10%;
+}
+
+footer {
+    color: #1a0077;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+footer p {
+    margin-bottom: 0px;
+}
+
+footer nav {
+    padding-top :-1rem;
+    padding-bottom: 1rem;
+}
+
+.footernav {
+    list-style: none;
+    display: inline;
+}
+
+.footernav ul {
+    /*display: inline;*/
+}
+
+.foortenav li {
+
+}
+
+/* Desktop */
+@media all and (min-width:1400px) {
+    section {
+        margin-top: 13%;
+        margin-left: 14%;
+        margin-right: 14%;
+    }
+
+}
+
+/* Tablet */
+@media all and (min-width:737px) and (max-width:1399px)  {
+    body{
+        width: 100%;
+
+    }
+}
+
+/* Phone */
+@media all and (max-width:736px) {
+    h1 {
+        margin-top: 5%;
+    }
+    .pic {
+        width: 100%;  
+        margin: 0%;
+    }
+    footer {
+        float: center;
+    }
+}

@@ -94,10 +94,13 @@ footer nav {
     /*display: inline;*/
 }
 
-.foortenav li {
-
+.footernav li {
+    
 }
 
+.footernav a {
+    font-size: 13px;
+}
 /* Desktop */
 @media all and (min-width:1400px) {
     section {

@@ -20,12 +20,17 @@
     </header>
 
     <section class="pic">
+        <h2></h2>
         <img src="images/test.jpg"  style="width:100%;" alt="">
+        
     </section>
 
     
     <footer>
-        <p><small>&copy;rukusvelo-<?php echo date("Y")?></p> 
+        <p><small>&copy;rukusvelo-<?php echo date("Y")?>/
+           <a href="https://validator.w3.org/check?uri=referer">Check HTML/</a> 
+           <a href="https://jigsaw.w3.org/css-validator/check?uri=referer">Check CSS/ </a></small>
+        </p> 
         <nav>
             <ul class="footernav">
                 <li><a href="about.php">About</a></li>
@@ -35,7 +40,5 @@
             </ul>
         </nav>
     </footer>
-    
-
 </body>
 </html>

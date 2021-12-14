@@ -6,9 +6,9 @@
         <nav>
             <ul class="footernav">
                 <li><a href="about.php">About</a></li>
-                <li><a href="contact.php">Contact</a></li>
-                <li><a href="size.php">Size</a></li>
-                <li><a href="cart.php">Cart</a></li>
+                <li><a href="info.php">Info</a></li>
+                <li><a href="size.php">Sizing</a></li>
+                <li><a href="newsletter.php">Newsletter</a></li>
             </ul>
         </nav>
     </footer>

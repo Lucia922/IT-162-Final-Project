@@ -11,6 +11,6 @@
                 <li><a href="newsletter.php">Newsletter</a></li>
             </ul>
         </nav>
-    </footer>
+</footer>
 </body>
 </html>

@@ -130,11 +130,11 @@ article {
     padding: 7% 10% 1% 10%;
 }
 
-.about > p {
+.secondarticle > p {
     margin-bottom: 10%;
 }
 
-.about > h3 {
+h3 {
     font-size: 20px;
     color: rgb(59, 103, 247);
 }

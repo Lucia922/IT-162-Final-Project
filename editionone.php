@@ -7,7 +7,7 @@ include 'includes/header.php';
         <div class="images">
            <img src="images/swim.jpg" style="width:100%;" alt="#1"/>
            <img src="images/nasishort.jpg" style="width:100%;" alt="#1"/>
-        <div>
+        </div>
     </section>
     
 <?php

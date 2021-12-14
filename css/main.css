@@ -34,10 +34,11 @@ h2 {
     color: #140058;
 }
 
+/*
 div {
     padding-top: 4%;
 }
-
+*/
 
 .topnav {
     position: fixed;
@@ -68,10 +69,12 @@ section {
     margin-top: 12%;
     margin-left: 12%;
     margin-right: 12%;
+    margin-bottom: 1%;
 }
 
 .images {
     font-size: 0;
+    padding-top: 4%;
 }
 
 img {
@@ -83,6 +86,62 @@ img {
     float: right;
     margin-right: 10%;
 }
+
+/* css for Shop.php start */
+.container {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3,auto);
+    justify-content: auto;
+    min-height: 230vh;
+    /*background-color: #2196F3;*/
+    padding: 3% 10% 3% 10%;
+}
+
+.item {
+    /*background-color: green;*/
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    /*padding: 20px;*/
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+}
+
+.item img {
+    object-fit: cover;
+    width: 100%;
+   /* height: auto;*/
+    /*transition: opacity 0.25s ease-in-out;*/
+}
+
+.item > p, span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 13px;
+    text-transform: uppercase;
+}
+/* css for Shop.php end */
+
+/* css for about.php start */
+article {
+    padding: 7% 10% 1% 10%;
+}
+
+.about > p {
+    margin-bottom: 10%;
+}
+
+.about > h3 {
+    font-size: 20px;
+    color: rgb(59, 103, 247);
+}
+
+
+
+/* css for about.php ene */
 
 footer {
     color: #1a0077;
@@ -117,7 +176,7 @@ footer nav {
     font-size: 12px;
 }
 /* Desktop */
-@media all and (min-width:1400px) {
+@media all and (min-width:1300px) {
     .topnav {
         top: 20%;
     }
@@ -131,15 +190,28 @@ footer nav {
 }
 
 /* Tablet */
-@media all and (min-width:737px) and (max-width:1399px)  {
+@media all and (min-width:737px) and (max-width:1299px)  {
     .topnav {
         top: 15%;
         font-size: 18px;
     }
 
+    h2 {
+        margin-top: -3%;
+    }
+
     body{
         width: 100%;
+    }
 
+    .container {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(2,auto);
+        justify-content: auto;
+        min-height: 190vh;
+        /*background-color: #2196F3;*/
+        padding: 3% 10% 3% 10%;
     }
 }
 
@@ -166,6 +238,16 @@ footer nav {
     .pic {
         width: 100%;  
         margin: 0%;
+    }
+
+    .container {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(1,auto);
+        justify-content: auto;
+        min-height: 600vh;
+        /*background-color: #2196F3;*/
+        padding: 5%;
     }
 
     footer {

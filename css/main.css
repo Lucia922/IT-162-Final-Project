@@ -15,7 +15,6 @@ body {
     background-color: #f8f8f7;
     text-align: center;
     width: 100%;
-
 }
 
 h1 {
@@ -24,6 +23,19 @@ h1 {
     transform: translateX(-50%);
     margin-top: -8%;
    
+}
+
+h2 {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -4%;
+    font-size: 13px;
+    color: #140058;
+}
+
+div {
+    padding-top: 4%;
 }
 
 
@@ -53,15 +65,18 @@ a:hover {
 }
 
 section {
-    margin-top: 13%;
+    margin-top: 12%;
     margin-left: 12%;
     margin-right: 12%;
+}
+
+.images {
+    font-size: 0;
 }
 
 img {
     max-width:100%;
     height:auto;
-
 }
 
 .topnav li a.shop {
@@ -81,7 +96,7 @@ footer p {
 }
 
 footer nav {
-    padding-top :-1rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
@@ -99,10 +114,14 @@ footer nav {
 }
 
 .footernav a {
-    font-size: 13px;
+    font-size: 12px;
 }
 /* Desktop */
 @media all and (min-width:1400px) {
+    .topnav {
+        top: 20%;
+    }
+
     section {
         margin-top: 13%;
         margin-left: 14%;
@@ -113,6 +132,11 @@ footer nav {
 
 /* Tablet */
 @media all and (min-width:737px) and (max-width:1399px)  {
+    .topnav {
+        top: 15%;
+        font-size: 18px;
+    }
+
     body{
         width: 100%;
 
@@ -123,12 +147,30 @@ footer nav {
 @media all and (max-width:736px) {
     h1 {
         margin-top: 5%;
+        font-size: 23px;
     }
+
+    h2 {
+        margin-top: 12%;
+    }
+
+    .topnav{
+        font-size: 15px;
+        margin-top: 7%;
+    }
+
+    div {
+        padding-top: 0%;
+    }
+
     .pic {
         width: 100%;  
         margin: 0%;
     }
+
     footer {
         float: center;
+        font-size: 12px;
+        padding-bottom: 0%;
     }
 }

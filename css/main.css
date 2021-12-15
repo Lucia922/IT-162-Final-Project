@@ -92,7 +92,7 @@ img {
     display: grid;
     grid-gap: 30px;
     grid-template-columns: repeat(3,auto);
-    justify-content: auto;
+    /*justify-content: auto;*/
     min-height: 230vh;
     /*background-color: #2196F3;*/
     padding: 3% 10% 3% 10%;
@@ -208,7 +208,7 @@ footer nav {
         display: grid;
         grid-gap: 30px;
         grid-template-columns: repeat(2,auto);
-        justify-content: auto;
+    /*  justify-content: auto; */
         min-height: 190vh;
         /*background-color: #2196F3;*/
         padding: 3% 10% 3% 10%;
@@ -244,14 +244,13 @@ footer nav {
         display: grid;
         grid-gap: 30px;
         grid-template-columns: repeat(1,auto);
-        justify-content: auto;
+     /* justify-content: auto; */
         min-height: 600vh;
         /*background-color: #2196F3;*/
         padding: 5%;
     }
 
     footer {
-        float: center;
         font-size: 12px;
         padding-bottom: 0%;
     }

@@ -5,6 +5,17 @@ html,body {
 
 }
 
+header {
+    position: fixed;
+    z-index: 2;
+}
+
+/*.pic {
+    position: fixed;
+    z-index: 3;
+
+}*/
+
 body {
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;; 
     font-size: 15px;
@@ -21,8 +32,9 @@ h1 {
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: -8%;
-   
+    /*margin-top: -8%;*/
+    margin: 0;
+    top: 10%;
 }
 
 h2 {
@@ -32,6 +44,9 @@ h2 {
     margin-top: -4%;
     font-size: 13px;
     color: #140058;
+    z-index: 3;
+    margin: 0%;
+    top: 17%;
 }
 
 /*
@@ -65,16 +80,13 @@ a:hover {
     display: inline;
 }
 
-section {
-    margin-top: 12%;
+.images {
+    font-size: 0;
+   /* padding-top: 4%;*/
+    margin-top: 15%;
     margin-left: 12%;
     margin-right: 12%;
     margin-bottom: 1%;
-}
-
-.images {
-    font-size: 0;
-    padding-top: 4%;
 }
 
 img {
@@ -92,57 +104,81 @@ img {
     display: grid;
     grid-gap: 30px;
     grid-template-columns: repeat(3,auto);
-    /*justify-content: auto;*/
     min-height: 230vh;
-    /*background-color: #2196F3;*/
     padding: 3% 10% 3% 10%;
 }
 
 .item {
-    /*background-color: green;*/
     border: 1px solid rgba(0, 0, 0, 0.8);
-    /*padding: 20px;*/
     font-size: 30px;
     text-align: center;
     position: relative;
-    z-index: -1;
+    z-index: 0;
 }
 
 .item img {
     object-fit: cover;
     width: 100%;
-   /* height: auto;*/
+    height: 100%;
     /*transition: opacity 0.25s ease-in-out;*/
 }
 
-.item > p, span{
+.item > p {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     font-size: 13px;
     text-transform: uppercase;
+    z-index: 1;
+
+}
+
+.item p:hover {
+    color: red;
+    font-size: 50%;
 }
 /* css for Shop.php end */
 
 /* css for about.php start */
-article {
-    padding: 7% 10% 1% 10%;
+.manifesto {
+    margin-top: 20%;
+    margin-bottom: 5%;  
+    margin-left: 18%;
+    margin-right: 18%; 
+    letter-spacing: 0.2em;
 }
 
-.secondarticle > p {
+.about {
+    margin-top: 8%;
     margin-bottom: 10%;
+    margin-left: 18%;
+    margin-right: 18%;
+    letter-spacing: 0.2em;
 }
 
-h3 {
+.manifesto > h3 {
     font-size: 20px;
     color: rgb(59, 103, 247);
 }
 
+.manifesto > p {
+    color: grey;
+    font-weight: lighter;
+}
 
+.about > h3 {
+    font-size: 20px;
+    color: rgb(59, 103, 247);
+}
 
+.about > p {
+    color: grey;
+    font-weight: lighter;
+}
 /* css for about.php ene */
 
+/* css for footer start*/
 footer {
     color: #1a0077;
     padding-top: 1rem;
@@ -175,6 +211,9 @@ footer nav {
 .footernav a {
     font-size: 12px;
 }
+/* css for footer end*/
+
+
 /* Desktop */
 @media all and (min-width:1300px) {
     .topnav {
@@ -187,17 +226,28 @@ footer nav {
         margin-right: 14%;
     }
 
+    
 }
 
 /* Tablet */
 @media all and (min-width:737px) and (max-width:1299px)  {
     .topnav {
-        top: 15%;
+        top: 16%;
         font-size: 18px;
     }
 
+    h1 {
+        margin: 0;
+        top: 8%;
+    }
+
     h2 {
-        margin-top: -3%;
+        top: 10%;
+        margin-top: 3%;
+    }
+
+    .images {
+        margin-top: 16%;
     }
 
     body{
@@ -208,27 +258,27 @@ footer nav {
         display: grid;
         grid-gap: 30px;
         grid-template-columns: repeat(2,auto);
-    /*  justify-content: auto; */
         min-height: 190vh;
-        /*background-color: #2196F3;*/
-        padding: 3% 10% 3% 10%;
+        padding: 15% 10% 3% 10%;
     }
 }
 
 /* Phone */
 @media all and (max-width:736px) {
     h1 {
-        margin-top: 5%;
+        top: 5%;
+        margin-top: 0;
         font-size: 23px;
     }
 
     h2 {
-        margin-top: 12%;
+        top: 10%;
     }
 
     .topnav{
         font-size: 15px;
         margin-top: 7%;
+        
     }
 
     div {
@@ -240,15 +290,25 @@ footer nav {
         margin: 0%;
     }
 
+    .images {
+        width: 100%;
+        margin: 0;
+    }
+     /* css for Shop.php start */
     .container {
         display: grid;
         grid-gap: 30px;
         grid-template-columns: repeat(1,auto);
-     /* justify-content: auto; */
         min-height: 600vh;
-        /*background-color: #2196F3;*/
-        padding: 5%;
+        padding: 0;
     }
+      /* css for Shop.php end */
+
+      /* css for about.php start */
+    .manifesto {
+        margin-top: 40%;
+    }
+      /* css for about.php start */
 
     footer {
         font-size: 12px;

@@ -8,39 +8,39 @@ include 'includes/header.php';
 
 <div class="container">
     <div class="item">
-       <p><span>item name / color <br>$000.00</span></p>
+       <p>item name / color <br>$000.00</p>
        <img src="images/swim.jpg" alt="swim" />    
     </div>
     <div class="item">
-       <p><span>item name / color <br>$000.00</span></p>
+       <p>item name / color <br>$000.00</p>
        <img src="images/swim.jpg" alt="swim" />
     </div>
     <div class="item">
-       <p><span>item name / color <br>$000.00</span></p>
+       <p>item name / color <br>$000.00</p>
        <img src="images/swim.jpg" alt="swim" />
     </div>
     <div class="item">
-       <p><span>item name / color <br>$000.00</span></p>
+       <p>item name / color <br>$000.00</p>
        <img src="images/swim.jpg" alt="swim" />
     </div>
     <div class="item">
-       <p><span>item name / color <br>$000.00</span></p>
+       <p>item name / color <br>$000.00</p>
        <img src="images/swim.jpg" alt="swim" />
     </div>
     <div class="item">
-       <p><span>item name / color <br>$000.00</span></p>
+       <p>item name / color <br>$000.00</p>
        <img src="images/swim.jpg" alt="swim" />
     </div>
     <div class="item">
-       <p><span>item name / color <br>$000.00</span></p>
+       <p>item name / color <br>$000.00</p>
        <img src="images/swim.jpg" alt="swim" />
     </div>
     <div class="item">
-       <p><span>item name / color <br>$000.00</span></p>
+       <p>item name / color <br>$000.00</p>
        <img src="images/swim.jpg" alt="swim" />
     </div>
     <div class="item">
-       <p><span>item name / color <br>$000.00</span></p>
+       <p>item name / color <br>$000.00</p>
        <img src="images/swim.jpg" alt="swim" />
     </div>
 </div>

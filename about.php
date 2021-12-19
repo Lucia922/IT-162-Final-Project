@@ -13,7 +13,7 @@ include 'includes/header.php';
             My two daughters are the inspiration behind my designs.
             I want my daughters to lead beautiful lives,
             to enjoy sophisticated aesthetics,
-            and to be able to navigate emotional complexith.
+            and to be able to navigate emotional complexity.
         </p>  
         <p>                                     
             I have been dreaming of children's clothes that are
@@ -21,6 +21,10 @@ include 'includes/header.php';
             Ruku Svelo celebrates traditions, the passage of time,
             and the far-away future.
         </p>
+    </div>
+
+    <div class="ella">
+       <img src="images/ella.jpg"  style="width:100%;" alt=""/>
     </div>
 
     <div class="about">   
@@ -41,7 +45,7 @@ include 'includes/header.php';
             We are surrounded by water, mountains,
             and evergreen forests.                                                        
         </p> 
-    </div>
+    </div> 
     
 
     
@@ -49,13 +53,4 @@ include 'includes/header.php';
 include 'includes/footer.php';
 ?> 
 
-         <!--  Ruku Svelo,<br> roughly translated from Russian,<br> means "Blossoming hand."<br> 
-            My two daughters are the inspiration behind my designs.<br>
-            I want my daughters to lead beautiful lives,<br>
-            to enjoy sophisticated aesthetics,<br>
-            and to be able to navigate emotional complexith.<br>
-                                                
-            I have been dreaming of children's clothes that are<br>
-            classic, sturdy, comfortable, simple, wholesome, and honest.<br>
-            Ruku Svelo celebrates traditions, the passage of time,<br>
-            and the far-away future.-->
+         

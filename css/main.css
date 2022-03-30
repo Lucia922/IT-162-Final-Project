@@ -228,9 +228,9 @@ footer nav {
     list-style: none;
 }
 
-.footernav ul {
-    /*display: inline;*/
-}
+/*.footernav ul {
+    display: inline;
+} */
 
 .footernav li {
     display: inline;

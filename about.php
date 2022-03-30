@@ -41,7 +41,7 @@ include 'includes/header.php';
             hand-selected for quality, designed to be passed down through several generations.
         </p>  
         <p> 
-            I live with my husband and two daughters in Maine.
+            I live with my husband and two daughters in Seattle.
             We are surrounded by water, mountains,
             and evergreen forests.                                                        
         </p> 

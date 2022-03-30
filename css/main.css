@@ -184,15 +184,44 @@ img {
  /* css for about.php end */
 
  /* css for newsletter.php start */
-.form {
-    margin-top: 20%;
+h3 {
+    font-size: 20px;
+    padding: 30px 0;
+
 }
+
+
+.form {
+    
+    color: #1a0077;
+
+}
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 10px 0;
+}
+
+button {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 50px 0;
+}
+
+input[type=email] {
+    border: none;
+    border-bottom: 1px solid #1a0077;
+    background-color: #f8f8f7;
+}   
+
+
  /* css for newsletter.php end */
 
 /* css for footer start*/
 footer {
     color: #1a0077;
-    padding-top: 1rem;
+    padding-top: 3rem;
     padding-bottom: 1rem;
     
 }
@@ -203,12 +232,11 @@ footer p {
 
 footer nav {
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0;
 }
 
 .footernav {
     list-style: none;
-    display: inline;
 }
 
 .footernav ul {
@@ -216,13 +244,19 @@ footer nav {
 }
 
 .footernav li {
-    
+    display: inline;
 }
 
 .footernav a {
     font-size: 12px;
+    padding: 0 8px;
 }
 /* css for footer end*/
+
+/* Thank you page start */
+.thanks {
+    margin-top: 20%;
+}
 
 
 /* Desktop */
@@ -236,6 +270,16 @@ footer nav {
         margin-left: 14%;
         margin-right: 14%;
     }
+
+/* css for newsletter.php start */
+    input {
+        width: 30%;
+    }
+
+    .form {
+        margin-top: 10%;
+    }
+/* css for newsletter.php end */
 
     
 }
@@ -277,7 +321,7 @@ footer nav {
 
      /* css for newsletter.php start */
     .form {
-        margin-top: 25%;
+        margin-top: 15%;
     }
      /* css for newsletter.php end */
 }
@@ -331,18 +375,26 @@ footer nav {
 
       /* css for about.php start */
     .manifesto {
-        margin-top: 40%;
+        margin-top: 30%;
     }
       /* css for about.php start */
 
       /* css for newsletter.php start */
     .form {
-        margin-top: 40%;
+        margin-top: 25%;
     }
      /* css for newsletter.php end */
 
+     /* thank you page start */
+     .thanks {
+        margin-top: 40%;
+    }
+     /* thank you page end */
+
+     /* footer start */
     footer {
         font-size: 12px;
         padding-bottom: 0%;
     }
+     /* footer end */
 }

@@ -321,6 +321,10 @@ footer nav {
 
 /* Phone */
 @media all and (max-width:736px) {
+    body {
+        margin: 0 auto;
+    }
+
     h1 {
         top: 5%;
         margin-top: 0;
@@ -391,7 +395,8 @@ footer nav {
      /* footer start */
     footer {
         font-size: 12px;
-        padding-bottom: 0%;
+        padding-top: 0 ;
+        padding-bottom: 1rem;
     }
      /* footer end */
 }

@@ -15,6 +15,8 @@
             <ul class="topnav">
                 <li><a href="editionone.php">#1</a></li>
                 <li><a href="shop.php">Shop</a></li> 
+                <li><a href="https://www.instagram.com/rukusvelo/" class="fa fa-instagram"></a></li>
             </ul>
         </nav>        
     </header>
+    
